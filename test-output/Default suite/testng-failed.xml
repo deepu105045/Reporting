@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.reporting.test.Country">
+        <methods>
+          <include name="Pak"/>
+          <include name="kuwait"/>
+          <include name="usa"/>
+          <include name="India"/>
+        </methods>
+      </class> <!-- com.reporting.test.Country -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

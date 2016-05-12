@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke]">
+  <listeners>
+    <listener class-name="com.reporting.listeners.TestNGCustomReportListener"/>
+  </listeners>
+  <test name="countryTesting(failed)">
+    <classes>
+      <class name="com.reporting.teststates.States">
+        <methods>
+          <include name="delhi"/>
+          <include name="tn"/>
+          <include name="goa"/>
+          <include name="up"/>
+          <include name="panjab"/>
+        </methods>
+      </class> <!-- com.reporting.teststates.States -->
+      <class name="com.reporting.testcountries.Country">
+        <methods>
+          <include name="kuwait"/>
+          <include name="Pak"/>
+        </methods>
+      </class> <!-- com.reporting.testcountries.Country -->
+    </classes>
+  </test> <!-- countryTesting(failed) -->
+</suite> <!-- Failed suite [Smoke] -->
